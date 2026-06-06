@@ -51,7 +51,7 @@ while True:
 
         # sensor esquerdo interage / simula a seta esquerda do teclado
         if esquerda < LIMITE:
-            keyboard.press("left") # tecla seta está pressioanada
+            keyboard.press("left") # tecla seta está pressioanada continuamente
         else:
             keyboard.release("left") # tecla seta está solta
 
