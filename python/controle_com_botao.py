@@ -65,7 +65,7 @@ while True:
 
         # botão interage / simula a tecla espaço do teclado
         if botao == 0 and not space_pressionado:
-            keyboard.send("space")
+            keyboard.send("space") # envia o comando "apertar a tecla espaço do teclado" uma única vez
             space_pressionado = True
 
 
