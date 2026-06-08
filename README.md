@@ -21,18 +21,13 @@ Visual Studio Code junto com a extensão do PlatformIO
 #### Sobre o Código
 A partir de um Microcontrolador ESP32 conectado em alguma porta COM-X do seu Desktop/Notebook faça o build e upload do código main.cpp a partir do PlatformIO para o Microcontrolador ESP32
 
-Ainda com o ESP32 conectado, vai até a pasta python e execute:
+Ainda com o ESP32 conectado, vai até a pasta python e crie um ambiente virtual:
 
 ```js
-.\.venv\Scripts\activate
+python -m venv <nome_do_seu_ambiente>
 ```
 
-*Caso não tenha nenhum ambiente virtual, crie um:
-```js
-python -m venv .venv
-```
-
-**Após criar o ambiente virtual, pode ser necessário ativá-lo também
+Após criar o ambiente virtual, faça a ativação dele
 
 Com o ambiente virtual iniciado, instale as seguintes bibliotecas:
 
